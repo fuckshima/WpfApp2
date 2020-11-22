@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -17,14 +16,13 @@ using System.Windows.Shapes;
 namespace WpfApp2
 {
     /// <summary>
-    /// MainWindow.xaml の相互作用ロジック
+    /// CustomProgressBar.xaml の相互作用ロジック
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CustomProgressBar : UserControl
     {
-        public MainWindow()
+        public CustomProgressBar()
         {
             InitializeComponent();
-            this.DataContext = new MainWindowVM();
         }
     }
 }
